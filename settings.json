@@ -1,0 +1,166 @@
+{
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": true,
+  "editor.renderWhitespace": "none",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.renderControlCharacters": false,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#808080",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "indenticator.color.dark": "white",
+  "indenticator.inner.showHighlight": true,
+  "indenticator.inner.color.dark": "crimson",
+  "indenticator.inner.width": 1,
+  "indenticator.width": 0,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.hover.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "visible",
+  "workbench.colorCustomizations": {
+    "scrollbarSlider.activeBackground": "#FF4500",
+    "scrollbarSlider.background": "#FFA500",
+    "scrollbarSlider.hoverBackground": "#FF4500",
+    "displayPermanently": true,
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "sideBar.background": "#01080f",
+    "editorLineNumber.foreground": "#41a6d9",
+    "editorLineNumber.activeForeground": "#ff6a00",
+    "pickerGroup.foreground": "#ff0000",
+    "activityBar.background": "#13332E",
+    "titleBar.activeBackground": "#19423B",
+    "titleBar.activeForeground": "#F6FBFB",
+    "list.activeSelectionBackground": "#13332E",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#13332E",
+    "tree.indentGuidesStroke": "#ff0000",
+    "editorCursor.foreground": "#dc143c"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "breadcrumbs.enabled": false,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "underline": "yellow"
+      },
+      "right": {
+        "surround": "#155FFA"
+      },
+      "name": {
+        "highlight": "rgba(180, 20, 80, 0.3)"
+      }
+    },
+    "closing": {
+      "full": {
+        "custom": {
+          "dark": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "yellow",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          },
+          "light": {
+            "borderWidth": "0 0 2px 0",
+            "borderColor": "yellow",
+            "borderStyle": "solid",
+            "borderRadius": "4px",
+            "right": "10px"
+          }
+        }
+      }
+    }
+  },
+  "highlight-matching-tag.showPath": true,
+  "highlight-matching-tag.showRuler": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.suggestSelection": "first",
+  "workbench.preferredDarkColorTheme": "Visual Studio Light",
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "workbench.startupEditor": "welcomePage",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/css/"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "prettier.singleQuote": true,
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "javascript.suggest.completeFunctionCalls": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.snippetSuggestions": "top",
+  "javascript.suggest.names": false,
+  "editor.tabCompletion": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "html.format.indentInnerHtml": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "explorer.compactFolders": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.fontSize": 17,
+  "window.zoomLevel": -1,
+  "[Log]": {
+    "editor.fontSize": 10
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "phpfmt.exclude": ["AllmanStyleBraces"],
+  "phpfmt.smart_linebreak_after_curly": true,
+  "phpfmt.psr2": false,
+  "phpfmt.detect_indent": true,
+  "phpfmt.indent_with_space": 2
+}
