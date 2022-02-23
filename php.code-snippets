@@ -18,14 +18,14 @@
 
   "php tag block": {
     "prefix": "php",
-    "body": ["<?php \n $1 \n?>\n"],
-    "description": "Insert <?php ?>"
+    "body": ["<?php \n  $1 \n?>\n"],
+    "description": "php tag"
   },
 
   "php tag inline": {
     "prefix": "phpi",
     "body": ["<?php $1 ?>"],
-    "description": "Insert <?php ?>"
+    "description": "php tag"
   },
 
   "$_POST": {
@@ -40,15 +40,33 @@
     "description": "GET"
   },
 
-  "echo": {
+  "php echo": {
     "prefix": "echo",
     "body": "echo $1;$2",
     "description": "echo"
   },
 
-  "function": {
+  "php function": {
     "prefix": "fn",
-    "body": "function ${1:name}(${2:params}){\n  $3 \n}\n",
+    "body": "function ${1:name}($${2:params}){\n  $3 \n}\n",
     "description": "function"
+  },
+
+  "php public": {
+    "prefix": "p",
+    "body": "public $1",
+    "description": "public"
+  },
+
+  "php private": {
+    "prefix": "pr",
+    "body": "private $1",
+    "description": "private"
+  },
+
+  "php $this->": {
+    "prefix": "this",
+    "body": "$$this->$1",
+    "description": "php $this->"
   }
 }
