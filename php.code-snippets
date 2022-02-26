@@ -58,10 +58,34 @@
     "description": "public"
   },
 
+  "php public function": {
+    "prefix": "pf",
+    "body": "public function ${1:name}($${2:params}){\n  $3 \n}\n",
+    "description": "public function"
+  },
+
   "php private": {
     "prefix": "pr",
     "body": "private $1",
     "description": "private"
+  },
+
+  "php private function": {
+    "prefix": "prf",
+    "body": "private function ${1:name}($${2:params}){\n  $3 \n}\n",
+    "description": "private function"
+  },
+
+  "php protected": {
+    "prefix": "pro",
+    "body": "protected $1",
+    "description": "protected"
+  },
+
+  "php protected function": {
+    "prefix": "prof",
+    "body": "protected function ${1:name}($${2:params}){\n  $3 \n}\n",
+    "description": "protected function"
   },
 
   "php $this->": {
