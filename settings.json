@@ -1,6 +1,5 @@
 {
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.visible": true,
   "editor.renderWhitespace": "none",
@@ -100,7 +99,7 @@
   "[json]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "none",
   "workbench.colorTheme": "Andromeda Colorizer",
   "liveSassCompile.settings.formats": [
     {
@@ -109,6 +108,7 @@
       "savePath": "~/css/"
     }
   ],
+  "editor.formatOnSave": true,
   "liveSassCompile.settings.generateMap": false,
   "[javascriptreact]": {
     "editor.formatOnSave": true,
@@ -119,7 +119,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[php]": {
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+    "editor.formatOnSave": true
   },
   "prettier.singleQuote": true,
   "[css]": {
@@ -161,6 +162,41 @@
   "phpfmt.exclude": ["AllmanStyleBraces"],
   "phpfmt.smart_linebreak_after_curly": true,
   "phpfmt.psr2": false,
-  "phpfmt.detect_indent": true,
-  "phpfmt.indent_with_space": 2
+  "phpfmt.passes": ["AutoSemicolon"],
+  "phpfmt.indent_with_space": 2,
+  "php.suggest.basic": false,
+  "emmet.excludeLanguages": ["markdown", "php"],
+  "php.validate.enable": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "[ ]",
+    "[x]",
+    "fix",
+    "todo",
+    "info"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "todo": {
+      "icon": "pencil",
+      "background": "yellow",
+      "gutterIcon": true
+    },
+    "fix": {
+      "icon": "alert",
+      "foreground": "black",
+      "iconColour": "red",
+      "gutterIcon": true,
+      "background": "red"
+    },
+    "info": {
+      "icon": "rocket",
+      "foreground": "black",
+      "iconColour": "green",
+      "gutterIcon": true,
+      "background": "green"
+    }
+  }
 }
