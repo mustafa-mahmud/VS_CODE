@@ -57,7 +57,7 @@
 		"scrollbarSlider.background": "#FFA500",
 		"scrollbarSlider.hoverBackground": "#FF4500",
 		"displayPermanently": true,
-		"editor.background": "#222",
+		"editor.background": "#000",
 		"editor.foreground": "#FFFFFF",
 		"sideBar.background": "#202020",
 		"editorLineNumber.foreground": "#41a6d9",
@@ -66,8 +66,13 @@
 		"activityBar.background": "#13332E",
 		"titleBar.activeBackground": "#19423B",
 		"titleBar.activeForeground": "#F6FBFB",
+
+		"editor.wordHighlightBackground": "#3e0dd4a1",
+		"editor.selectionHighlightBorder": "#FFFA",
+		"editor.selectionBackground": "#605353",
+
 		"list.activeSelectionBackground": "#13332E",
-		"list.activeSelectionForeground": "#FFFFFF",
+		"list.activeSelectionForeground": "#ffffff",
 		"list.inactiveSelectionBackground": "#13332E",
 		"tree.indentGuidesStroke": "#ff0000",
 		"editorCursor.foreground": "#dc143c"
