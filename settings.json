@@ -53,7 +53,7 @@
 	"editor.scrollbar.vertical": "visible",
 	"editor.scrollbar.horizontal": "visible",
 	"workbench.colorCustomizations": {
-		"editor.background": "#1d1d1d",
+		"editor.background": "#222",
 		"terminal.foreground": "#0000ff",
 		"terminal.background": "#1e1d1d",
 		"editor.foreground": "#FFFFFF",
@@ -162,7 +162,7 @@
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"explorer.compactFolders": false,
 	"terminal.integrated.fontSize": 15,
-	"editor.fontSize": 17.7,
+	"editor.fontSize": 19,
 	"window.zoomLevel": -1,
 	"[Log]": {
 		"editor.fontSize": 9
