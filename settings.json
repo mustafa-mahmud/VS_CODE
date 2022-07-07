@@ -17,8 +17,9 @@
 			},
 			{
 				"name": "Keyword Storage",
-				"scope": ["keyword", "keyword.control", "storage"],
+				"scope": ["storage"],
 				"settings": {
+					"foreground": "#FF5349",
 					"fontStyle": "italic"
 				}
 			},
@@ -37,9 +38,95 @@
 				"name": "Variable",
 				"scope": ["variable.language"],
 				"settings": {
+					"foreground": "#e0ec0ce6",
 					"fontStyle": "italic"
 				}
-			}
+			},
+			{
+				"name": "Variable",
+				"scope": ["keyword.operator"],
+				"settings": {
+					"foreground": "#c4d11298",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Function",
+				"scope": ["entity.name.function"],
+				"settings": {
+					"foreground": "#56B7C3",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Meta",
+				"scope": ["meta.object-literal.key"],
+				"settings": {
+					"foreground": "#FFF",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "New",
+				"scope": ["keyword.operator.new"],
+				"settings": {
+					"foreground": "#FAEA48",
+					"fontStyle": "italic bold"
+				}
+			},
+			{
+				"name": "Export",
+				"scope": ["keyword.control.export"],
+				"settings": {
+					"foreground": "#4AA96C",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Class Type",
+				"scope": ["entity.name.type.class"],
+				"settings": {
+					"fontStyle": "italic bold"
+				}
+			},
+			{
+				"name": "Parent Class",
+				"scope": ["entity.other.inherited-class"],
+				"settings": {
+					"fontStyle": "italic bold",
+				}
+			},
+			{
+				"name": "This Class",
+				"scope": ["variable.language.this"],
+				"settings": {
+					"foreground": "#FFD31D",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Parameter",
+				"scope": ["variable.parameter"],
+				"settings": {
+					"foreground": "#7900FF",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Variable",
+				"scope": ["variable.other"],
+				"settings": {
+					"foreground": "#C0E218",
+				}
+			},
+			{
+				"name": "Variable",
+				"scope": ["support.class"],
+				"settings": {
+					"foreground": "#56B7C3",
+					"fontStyle": "italic"
+				}
+			},
 		]
 	},
 	"editor.bracketPairColorization.enabled": true,
@@ -54,11 +141,13 @@
 	"editor.scrollbar.horizontal": "visible",
 
 	"workbench.colorCustomizations": {
+		"editor.background": "#222",
 		"editorHoverWidget.background": "#222",
 		"editorHoverWidget.foreground": "#888",
-		"editor.background": "#222",
-		"terminal.foreground": "#0000ff",
-		"terminal.background": "#1e1d1d",
+		//terminal customize start
+		"terminal.background": "#222",
+		"terminal.foreground": "#D0D0D0",
+		//terminal customize end
 		"editor.foreground": "#FFFFFF",
 		"sideBar.background": "#222",
 		"statusBar.background": "#222",
@@ -74,12 +163,14 @@
 		"titleBar.activeForeground": "#F6FBFB",
 		"editor.wordHighlightStrongBorder": "#ff0000",
 		"editor.wordHighlightBorder": "#ff0000",
-		"editor.selectionBackground": "#3e6556",
-		"list.activeSelectionBackground": "#13332E",
+		"editor.selectionBackground": "#555",
+		"list.activeSelectionBackground": "#13332e3f",
 		"list.activeSelectionForeground": "#ffffff",
-		"list.inactiveSelectionBackground": "#13332E",
+		"list.inactiveSelectionBackground": "#13332e6b",
 		"tree.indentGuidesStroke": "#ff0000",
-		"editorCursor.foreground": "#dc143c"
+		"editorCursor.foreground": "#dc143c",
+		"tab.activeBorderTop": "#f60505",
+		"editorGutter.background": "#222",
 	},
 
 	"breadcrumbs.enabled": false,
@@ -166,7 +257,7 @@
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"explorer.compactFolders": false,
 	"terminal.integrated.fontSize": 15,
-	"editor.fontSize": 20,
+	"editor.fontSize": 19,
 	"window.zoomLevel": -1,
 	"[Log]": {
 		"editor.fontSize": 9
@@ -201,5 +292,7 @@
 	"editor.fontFamily": "Operator Mono Lig",
 	"editor.fontLigatures": true,
 	"editor.lineHeight": 1.5,
-	"workbench.colorTheme": "SynthWave '84"
+	"workbench.colorTheme": "Eva Dark Italic",
+	"editorGutter.background": "#393a39",
+	"terminal.integrated.tabs.enabled": false
 }
