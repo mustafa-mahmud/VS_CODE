@@ -54,7 +54,7 @@
 				"name": "Function",
 				"scope": ["entity.name.function"],
 				"settings": {
-					"foreground": "#56B7C3",
+					"foreground": "#e8d0b8",
 					"fontStyle": "italic"
 				}
 			},
@@ -108,7 +108,7 @@
 				"name": "Parameter",
 				"scope": ["variable.parameter"],
 				"settings": {
-					"foreground": "#7900FF",
+					"foreground": "#B4FF9F",
 					"fontStyle": "italic"
 				}
 			},
@@ -116,12 +116,20 @@
 				"name": "Variable",
 				"scope": ["variable.other"],
 				"settings": {
-					"foreground": "#C0E218",
+					"foreground": "#26d323",
 				}
 			},
 			{
 				"name": "Variable",
 				"scope": ["support.class"],
+				"settings": {
+					"foreground": "#56B7C3",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "Variable other property",
+				"scope": ["variable.other.property"],
 				"settings": {
 					"foreground": "#56B7C3",
 					"fontStyle": "italic"
@@ -142,35 +150,40 @@
 
 	"workbench.colorCustomizations": {
 		"editor.background": "#222",
+		"editorGutter.background": "#222",
+		"terminal.background": "#222",
+		"statusBar.background": "#222",
+		"sideBar.foreground": "#999",
+		"sideBar.background": "#222",
+		"activityBar.background": "#333",
+		"activityBar.foreground": "#fff",
+		"editorGroupHeader.tabsBackground": "#222",
+		"tab.activeBackground": "#19423B",
+		"tab.inactiveForeground": "#999",
+		"tab.inactiveBackground": "#222",
 		"editorHoverWidget.background": "#222",
 		"editorHoverWidget.foreground": "#888",
-		//terminal customize start
-		"terminal.background": "#222",
-		"terminal.foreground": "#D0D0D0",
-		//terminal customize end
-		"editor.foreground": "#FFFFFF",
-		"sideBar.background": "#222",
-		"statusBar.background": "#222",
-		"scrollbarSlider.activeBackground": "#FF4500",
-		"scrollbarSlider.background": "#FFA500",
-		"scrollbarSlider.hoverBackground": "#FF4500",
+		"terminal.foreground": "#999",
+		"editor.foreground": "#845c5c",
+		"scrollbarSlider.activeBackground": "#999",
+		"scrollbarSlider.background": "#555",
+		"scrollbarSlider.hoverBackground": "#777",
 		"displayPermanently": true,
 		"editorLineNumber.foreground": "#41a6d9",
 		"editorLineNumber.activeForeground": "#ff6a00",
 		"pickerGroup.foreground": "#ff0000",
-		"activityBar.background": "#13332E",
 		"titleBar.activeBackground": "#19423B",
 		"titleBar.activeForeground": "#F6FBFB",
 		"editor.wordHighlightStrongBorder": "#ff0000",
 		"editor.wordHighlightBorder": "#ff0000",
-		"editor.selectionBackground": "#555",
-		"list.activeSelectionBackground": "#13332e3f",
-		"list.activeSelectionForeground": "#ffffff",
-		"list.inactiveSelectionBackground": "#13332e6b",
+		"editor.selectionBackground": "#444",
+		"list.activeSelectionBackground": "#777",
+		"list.activeSelectionForeground": "#FFD31D",
+		"list.inactiveSelectionForeground": "#2EB086",
+		"list.inactiveSelectionIconForeground": "#ff0000",
 		"tree.indentGuidesStroke": "#ff0000",
 		"editorCursor.foreground": "#dc143c",
-		"tab.activeBorderTop": "#f60505",
-		"editorGutter.background": "#222",
+		"tab.activeBorder": "#ff2c1d",
 	},
 
 	"breadcrumbs.enabled": false,
@@ -243,7 +256,6 @@
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "HookyQR.beautify"
 	},
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 	"editor.linkedEditing": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.snippetSuggestions": "top",
@@ -256,11 +268,11 @@
 	"explorer.confirmDragAndDrop": false,
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"explorer.compactFolders": false,
-	"terminal.integrated.fontSize": 15,
-	"editor.fontSize": 19,
+	"terminal.integrated.fontSize": 16,
+	"editor.fontSize": 18.7,
 	"window.zoomLevel": -1,
 	"[Log]": {
-		"editor.fontSize": 9
+		"editor.fontSize": 12
 	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"php.suggest.basic": false,
@@ -268,7 +280,6 @@
 	"php.validate.enable": false,
 	"explorer.confirmDelete": false,
 	"workbench.editor.enablePreview": false,
-	"workbench.sideBar.location": "right",
 	"terminal.integrated.enableMultiLinePasteWarning": false,
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
@@ -293,6 +304,6 @@
 	"editor.fontLigatures": true,
 	"editor.lineHeight": 1.5,
 	"workbench.colorTheme": "Eva Dark Italic",
-	"editorGutter.background": "#393a39",
-	"terminal.integrated.tabs.enabled": false
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.defaultProfile.windows": "Git Bash"
 }
