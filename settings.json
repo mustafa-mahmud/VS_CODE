@@ -54,7 +54,7 @@
 				"name": "Function",
 				"scope": ["entity.name.function"],
 				"settings": {
-					"foreground": "#e8d0b8",
+					"foreground": "#dbae81",
 					"fontStyle": "italic"
 				}
 			},
@@ -62,7 +62,7 @@
 				"name": "Meta",
 				"scope": ["meta.object-literal.key"],
 				"settings": {
-					"foreground": "#FFF",
+					"foreground": "#f3ededeb",
 					"fontStyle": "italic"
 				}
 			},
@@ -116,7 +116,7 @@
 				"name": "Variable",
 				"scope": ["variable.other"],
 				"settings": {
-					"foreground": "#26d323",
+					"foreground": "#45c043",
 				}
 			},
 			{
@@ -149,6 +149,7 @@
 	"editor.scrollbar.horizontal": "visible",
 
 	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#333",
 		"editor.background": "#222",
 		"editorGutter.background": "#222",
 		"terminal.background": "#222",
@@ -172,7 +173,6 @@
 		"editorLineNumber.foreground": "#41a6d9",
 		"editorLineNumber.activeForeground": "#ff6a00",
 		"pickerGroup.foreground": "#ff0000",
-		"titleBar.activeBackground": "#19423B",
 		"titleBar.activeForeground": "#F6FBFB",
 		"editor.wordHighlightStrongBorder": "#ff0000",
 		"editor.wordHighlightBorder": "#ff0000",
@@ -269,7 +269,7 @@
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"explorer.compactFolders": false,
 	"terminal.integrated.fontSize": 16,
-	"editor.fontSize": 18.7,
+	"editor.fontSize": 18,
 	"window.zoomLevel": -1,
 	"[Log]": {
 		"editor.fontSize": 12
