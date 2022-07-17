@@ -269,7 +269,8 @@
 	"php.validate.executablePath": "C:/xampp/php/php.exe",
 	"explorer.compactFolders": false,
 	"terminal.integrated.fontSize": 16,
-	"editor.fontSize": 18,
+	"editor.fontSize": 19.5,
+	"editor.letterSpacing": 0.5,
 	"window.zoomLevel": -1,
 	"[Log]": {
 		"editor.fontSize": 12
@@ -285,8 +286,8 @@
 	"javascript.suggest.paths": false,
 	"debug.javascript.autoAttachFilter": "disabled",
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": false,
-		"source.organizeImports": true
+		"source.fixAll.eslint": true,
+		"source.organizeImports": false
 	},
 	"eslint.alwaysShowStatus": true,
 	"eslint.validate": [
@@ -305,5 +306,7 @@
 	"editor.lineHeight": 1.5,
 	"workbench.colorTheme": "Eva Dark Italic",
 	"terminal.integrated.tabs.enabled": false,
-	"terminal.integrated.defaultProfile.windows": "Git Bash"
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"typescript.validate.enable": false,
+	"javascript.validate.enable": false,
 }
